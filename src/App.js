@@ -4,8 +4,8 @@ import { Container } from "@mui/system";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import "./App.css";
-import Definitions from "./components/Header/Definitions/Definitions";
-import Header from "./components/Header/Header/Header";
+import Definitions from "./components/Definitions/Definitions";
+import Header from "./components/Header/Header";
 function App() {
   const [word, setWord] = useState("");
   const [meanings, setMeanings] = useState([]);
